@@ -1,7 +1,6 @@
 import logo from "../assets/icons/swaraj.png";
 import { Link } from "react-router-dom";
 import {BsInstagram, BsTwitter} from "react-icons/bs"
-import { Icon } from '@iconify/react';
 
 import {BsFacebook} from "react-icons/bs"
 import {FaTelegramPlane} from "react-icons/fa"
@@ -127,7 +126,7 @@ export function Prologue() {
       <a className='m-9 hover:text-[#9c23e8] ease-in-out duration-500 vrt' href="https://www.instagram.com/swarajcoinofficial/"><BsInstagram fontSize={28}/></a>
       <a className='m-9  hover:text-[#178bcf] ease-in-out duration-500 vrt' href="https://t.me/swarajcoin"><FaTelegramPlane fontSize={28}/></a>
       <a className='m-9 hover:text-[#0272fa] ease-in-out duration-500 vrt' href="https://twitter.com/swarajcoin"><BsTwitter fontSize={28}/></a>
-      <a className='m-9 hover:text-[#32cf83] ease-in-out duration-500 vrt text-4xl w-[10px]' href="https://linktr.ee/swarajcoinofficial"><Icon icon="simple-icons:linktree" /></a>
+      {/* <a className='m-9 hover:text-[#32cf83] ease-in-out duration-500 vrt text-4xl w-[10px]' href="https://linktr.ee/swarajcoinofficial"><Icon icon="simple-icons:linktree" /></a> */}
     </div>
   <div className='w-[full] bg-black h-[10vh] flex items-center justify-center pb-[2%]'> SWARAJ COIN ©2022 All Rights Reserved</div>
   </div>
