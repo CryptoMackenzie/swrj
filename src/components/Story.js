@@ -60,8 +60,8 @@ Story So Far...
             </div>
             
             <div className='md:w-[60%] w-full h-[50vh] m-10  flex'>
-              
-            {/* <marquee direction="up" height="450">
+
+            <marquee direction="up" height="450">
               <div className=' md:ml-6 ml-2 bg-white flex items-center  justify-center mt-10 rounded-3xl'><img  clasName="mr-[50px]" src={img1} alt="" srcset="" className=' rounded-3xl'/></div>
               <div className=' md:ml-6 ml-2 bg-white flex items-center   justify-center mt-10 rounded-3xl '><img src={img3} alt="" srcset="" className=' rounded-3xl'/></div>
               <div className=' md:ml-6 ml-2bg-white flex items-center   justify-center mt-10 rounded-3xl'><img src={img6} alt="" srcset="" className=' rounded-3xl'/></div>
@@ -72,7 +72,7 @@ Story So Far...
               <div className='   flex items-center md:ml-[30px] ml-2   justify-center mt-10 rounded-3xl'><img src={img2} alt="" srcset="" className=' rounded-3xl'/></div>
               <div className='   flex items-center md:ml-[30px] ml-2  justify-center mt-10 rounded-3xl'><img src={img5} alt="" srcset="" className=' rounded-3xl'/></div>
               
-            </marquee> */}
+            </marquee>
             
             </div>
       </div>
