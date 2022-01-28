@@ -56,7 +56,7 @@ const Roadmap = () => {
               <time>Phase 2: 2022 Q1</time>
 
               <Fade right><div className="text-white m-1">Initial Coin Marketing</div></Fade>
-              <Fade left><div className="text-white m-2">Game Studio Partnershisp<img src={tick} className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Game Studio Partnerships<img src={tick} className="w-[50px]"/></div></Fade>
               {/* <Fade right><div className="text-white m-1">Game Studio Partnershisp</div></Fade> */}
               <Fade right><div className="text-white m-1">Private Sale </div></Fade>
               <Fade right><div className="text-white  m-1">Website Launch v2</div></Fade>

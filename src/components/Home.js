@@ -71,7 +71,8 @@ const Home = () => {
 
               <button className=" mr-7 ml-7 mt-[8%] p-[10px]">
                 {" "}
-                Freedom Paper V2.1{" "}
+                
+                Freedom Paper v1.3{" "}
               </button>
             </div>
          

@@ -70,69 +70,8 @@ Story So Far...
             </div>
             
             <div className='md:w-[60%] w-full h-[50vh] m-10  flex'>
-              {/* <div id="mark">
-              <div class="marquee h-[50vh]">
-              <ul class="marquee-content">
-                <li>
-                  <img
-                  clasName="mr-[50px]"
-                  src={img1}
-                  alt=""
-                  srcset=""
-                  className=" rounded-3xl"
-                />
-                </li>
-                <li>
-                <img
-                  clasName="mr-[50px]"
-                  src={img2}
-                  alt=""
-                  srcset=""
-                  className=" rounded-3xl"
-                />
-                </li>
-                <li>
-                <img
-                  clasName="mr-[50px]"
-                  src={img3}
-                  alt=""
-                  srcset=""
-                  className=" rounded-3xl"
-                />
-                </li>
-                <li>
-                <img
-                  clasName="mr-[50px]"
-                  src={img6}
-                  alt=""
-                  srcset=""
-                  className=" rounded-3xl"
-                />
-                </li>
-                <li>
+           
 
-                <img
-                  clasName="mr-[50px]"
-                  src={img5}
-                  alt=""
-                  srcset=""
-                  className=" rounded-3xl"
-                />
-                </li>
-                <li>
-                <img
-                  clasName="mr-[50px]"
-                  src={img7}
-                  alt=""
-                  srcset=""
-                  className=" rounded-3xl"
-                />
-                </li>
-                
-              </ul>
-              
-            </div>
-            </div> */}
             <marquee direction="up" height="450">
               <div className=' md:ml-6 ml-2 bg-white flex items-center  justify-center mt-10 rounded-3xl'><img  clasName="mr-[50px]" src={img1} alt="" srcset="" className=' rounded-3xl'/></div>
               <div className=' md:ml-6 ml-2 bg-white flex items-center   justify-center mt-10 rounded-3xl '><img src={img3} alt="" srcset="" className=' rounded-3xl'/></div>
