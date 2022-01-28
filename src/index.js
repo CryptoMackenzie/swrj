@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Prologue from './components/prolouge';
+import Tokenomics from './components/Tokenomics';
 
 function SwarajCoin() {
   return (
@@ -12,7 +13,7 @@ function SwarajCoin() {
         <Route path="/" element={<App />} />
         <Route path="*" element={<App />} />
         <Route path="prologue" element={<Prologue />} />
-        <Route path="tokenomics" element={<App />} />
+        <Route path="tokenomics" element={<Tokenomics />} />
       </Routes>
     </BrowserRouter>
   );

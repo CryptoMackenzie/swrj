@@ -1,10 +1,5 @@
 import FeatureCards2 from "./FeatureCard2";
-import entertainment from "../assets/icons/entertainment.svg";
-import monetize from "../assets/icons/monetize.svg";
-import develop from "../assets/icons/develop.svg";
-import gameplay from "../assets/icons/gameplay.svg";
-import explore from "../assets/icons/explore.svg";
-import personalization from "../assets/icons/personalization.svg";
+
 import { useState } from "react";
 import img1 from "../assets/Sequencer/1.png" 
 import img2 from "../assets/Sequencer/2.png" 

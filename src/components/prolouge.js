@@ -17,7 +17,7 @@ export function Prologue() {
         <div className="mt-3 items-center flex flex-col justify-center">
             <div className="flex w-full items-center justify-center">
 
-        <h1 className='text-[#a64af7] tracking-[10px] text-6xl drop-shadow-2xl mb-[10%] font-semibold text-shadow-1'>Prolouge</h1>
+        <h1 className='text-[#a64af7] tracking-[10px] text-6xl drop-shadow-2xl mb-[10%] font-semibold text-shadow-1'>Prologue</h1>
             </div>
             <div className="text-2xl w-[90vw] text-center ">
           <p className="m-8 border-solid border-[#a64af7] border-2 p-7 rounded-2xl">

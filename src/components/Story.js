@@ -36,7 +36,7 @@ Story So Far...
 {see?<p id='see-content '>Tried to reason with both sides. Even used threats. I warned them of my premonitions. Nothing worked. Politicians and leaders on both sides were determined to use this conflict for their own agendas. War could not be prevented. A vivid dream came to me many times now, and I am convinced the threat is real. There is something worse coming, much worse. If we do not stop this pointless fighting, if we do not unite and learn to live in peace, not a single one of us will survive this threat. Humans, Elves, Trolls, Fairies, we will all be wiped out.</p>:""}{see?<span className="cursor-pointer text-[#a64af7] " onClick={()=>setSee(false)}>See less</span>:<span className="cursor-pointer text-[#a64af7]" onClick={()=>setSee(true)}>See More..</span>}</div>
 
 </div>
-<Link to="/prologue"><button  className="mt-[3vw] mr-7 ml-7 mb-7 text-white pl-5 pr-[1px] pb-6 flex items-center justify-center pt-5 h-[50px] w-[10vw]"> Read Prolouge </button></Link>
+<Link to="/prologue"><button  className="mt-[3vw] mr-11  mb-7 text-white pl-5 pr-[10px] pb-6 flex items-center justify-center pt-5  h-[50px] w-[10vw]"> Read Prologue </button></Link>
   </div>
   <div className='w-full bg-black  pt-[65vh] flex flex-col md:flex-row md:pt-10 '>
  
@@ -45,7 +45,7 @@ Story So Far...
           <div className='w-full mb-11 flex flex-col '>
 
           <h1 className='text-5xl font-bold'>Meet The</h1>
-          <h1 className='text-9xl text-[#a64af7]  ml-[24%]  specialH2 tracking-[10px]'>Deviants</h1>
+          <h1 className='text-9xl text-[#a64af7]  ml-[-35%]  specialH2 tracking-[10px]'>Deviants</h1>
           </div>
           <p className='text-white text-2xl font-bold'> 
           Our mission is simple: <span className='text-[#a64af7] textShadow font-bold'>Take over the PvP and P2E gaming experience in the metaverse space.
@@ -106,7 +106,7 @@ Story So Far...
   </div>
   <div className='w-full bg-black  flex  pt-[10%]'>
       <div className='w-[50%] p-[5%] flex flex-col '>
-          <h1 className='text-[#a64af7] tracking-[10px] text-7xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
+          <h1 className='text-[#a64af7] tracking-[10px] ml-[-15%] text-7xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
           <p className='text-white text-2xl font-bold'>
               
    Limited edition of 100 Smart NFTs With AI capablities.<br/><br/> Possessing these Sentinels grants extrordinary privileges, transforming them into the "Councilor" of particular areas of the virtual territory in the Metaverse <br/><br/>

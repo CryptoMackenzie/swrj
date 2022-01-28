@@ -5,6 +5,9 @@ import { useWindowWidth } from "@react-hook/window-size";
 import polygonLogo from "../assets/icons/polygon-badge.png";
 import Typewriter from "typewriter-effect";
 import vdo from "../assets/globe.mp4";
+import freedompaper from "../assets/freedompaper.pdf"
+import { Link } from "react-router-dom";
+
 const Home = () => {
   const screenWidth = useWindowWidth();
   console.log(screenWidth - 300);
@@ -20,10 +23,12 @@ const Home = () => {
             <img src={logo} alt="logo" className="w-[100px]" />
           </div>
           <div className="w-[50%]  flex justify-end text-white font-mono">
+          <Link to="tokenomics">
             <button className="mt-5 mr-7 ml-7 hidden md:block">
               {" "}
               Tokenomics{" "}
             </button>
+            </Link>
             <button
               className="mt-5 mr-7 ml-7 hidden md:block"
               onClick={() => (window.location.href = "#roadmap")}
@@ -71,8 +76,9 @@ const Home = () => {
 
               <button className=" mr-7 ml-7 mt-[8%] p-[10px]">
                 {" "}
-                
+                <a href={freedompaper}>
                 Freedom Paper v1.3{" "}
+                </a>
               </button>
             </div>
          

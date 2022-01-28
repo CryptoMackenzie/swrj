@@ -1,7 +1,7 @@
 import React from 'react';
-import gtknImg from "../assets/Sequencer/GTKN.png";
+
 import swrjImg from "../assets/Sequencer/Swrj.png";
-import gtknVdo  from "../assets/Sequencer/gtkn.mkv";
+
 import swrjVdo  from "../assets/Sequencer/swj.mkv";
 
 const Sequncer = () => {

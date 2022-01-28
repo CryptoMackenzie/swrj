@@ -1,5 +1,5 @@
 import React from "react";
-import {CgCheckR} from "react-icons/cg"
+
 import Fade from 'react-reveal/Fade';
 import  tick from "../assets/signtick.png"
 
@@ -40,13 +40,13 @@ const Roadmap = () => {
             <div>
               <time>Phase 1: 2021</time>
 
-              <Fade left><div className="text-white m-2 flex flex-row">Conceptualization <img src={tick} className="w-[50px]"/></div></Fade>
-              <Fade left><div className="text-white m-2">Team Building<img src={tick} className="w-[50px]"/></div></Fade>
-              <Fade left><div className="text-white m-2">Whitepaper v1<img src={tick} className="w-[50px]"/></div></Fade>
-              <Fade left><div className="text-white m-2">Pre-Seed Sale<img src={tick} className="w-[50px]"/></div></Fade>
-              <Fade left><div className="text-white m-2">Seed Sale<img src={tick} className="w-[50px]"/></div></Fade>
-              <Fade left><div className="text-white m-2">Investor Relatations<img src={tick} className="w-[50px]"/></div></Fade>
-              <Fade left><div className="text-white m-2">Website Launch v1<img src={tick} className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2 flex flex-row">Conceptualization <img src={tick} alt="check" className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Team Building<img src={tick} alt="check" className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Whitepaper v1<img src={tick} alt="check" className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Pre-Seed Sale<img src={tick} alt="check" className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Seed Sale<img src={tick} alt="check" className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Investor Relatations<img src={tick} alt="check"className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Website Launch v1<img src={tick} alt="check" className="w-[50px]"/></div></Fade>
               {/* <Fade left><div className="text-white m-2 ">Discovery <img src={tick} className="w-[50px]"/></div></Fade> */}
             </div>
 
@@ -56,7 +56,7 @@ const Roadmap = () => {
               <time>Phase 2: 2022 Q1</time>
 
               <Fade right><div className="text-white m-1">Initial Coin Marketing</div></Fade>
-              <Fade left><div className="text-white m-2">Game Studio Partnerships<img src={tick} className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Game Studio Partnerships<img src={tick} alt="check" className="w-[50px]"/></div></Fade>
               {/* <Fade right><div className="text-white m-1">Game Studio Partnershisp</div></Fade> */}
               <Fade right><div className="text-white m-1">Private Sale </div></Fade>
               <Fade right><div className="text-white  m-1">Website Launch v2</div></Fade>

@@ -294,12 +294,13 @@ h1 { font-size: 20vw; }
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s linear infinite;
+}
   @keyframes shine {
     to {
       background-position: 200% center;
     }
   }
-}
+
 .ts{
   text-shadow: 0 0 30px #1ac940;
   font-family: 'Ubuntu Mono', monospace;
@@ -352,7 +353,11 @@ h1 { font-size: 20vw; }
   min-width: 100%;
   margin: 0px;
   letter-spacing: normal;
-  background: radial-gradient(ellipse at bottom, #270941 -30%, #090a0f 100%);
+  /* background: radial-gradient(ellipse at bottom, #270941 -30%, #090a0f 100%); */
+}
+.Prologue2{
+  background: radial-gradient(ellipse at bottom, #270941 -30%, #090a0f 100%) !important;
+
 }
 
 .PrologueContent {
@@ -552,7 +557,7 @@ h1 {
 .cursor-dot-outline {
   width: 40px;
   height: 40px;
-  background:url();
+
 }
 body {
   margin: 0;
@@ -984,7 +989,7 @@ footer {
 }
 .FeatureCard2 > div > img {
   margin: 50px;
-  margin-left: 95px;
+  margin-left: 80px;
 }
 .FeatureCard >  h3 {
   margin: 10px;

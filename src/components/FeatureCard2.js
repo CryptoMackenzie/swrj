@@ -3,7 +3,7 @@ function FeatureCards2(props) {
     return (
       <div className={className}>
         <div>
-          <img src={props.icon} alt="icon" className="w-[120px]"/>
+          <img src={props.icon} alt="icon" className="w-[120px] ml-[-100px]"/>
           <h3>{props.title}</h3>
           <p className="">{props.text}</p>
         </div>
