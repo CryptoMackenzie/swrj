@@ -17,7 +17,7 @@ const OurPartners = () => {
   return (<>
   
   <div className='w-full h-[100vh] bg-black  pt-[10%] justify-center items-center m-auto'    >
-      <h1 className='text-[#a64af7] text-7xl drop-shadow-2xl mb-[10%] pl-[35%] font-semibold text-shadow-1'>Our Partners</h1>
+      <h1 className='text-[#a64af7] text-8xl drop-shadow-2xl mb-[10%] pr-[7%] font-semibold specialH2 text-shadow-1'>Our Partners</h1>
         <div className='flex justify-between'>
             <div className='w-[300px] h-[300px]  shadow-2xl hover:shadow-[#a64af7] duration-1000 ml-[10%] bg-white flex items-center justify-center'><img src={infivr} className='w-[250px]' alt="" /></div>
             <div className='w-[300px] h-[300px] shadow-2xl ease-in-out duration-1000 hover:shadow-[#a64af7] mr-[10%] bg-white flex items-center justify-center'><img src={polygon} alt="" className='w-[250px]'/></div>

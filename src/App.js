@@ -23,14 +23,14 @@ function App() {
       
       <Sequncer/>
       <Carousal/>
-     <div className=" ">
+     <div className="pt-[8%] ">
 
           <div className="pokercard bg-black">
             <FeatureCards />
           </div>
      </div>
       </div>
-      <div className="pt-[30%]">
+      <div className="pt-[40%]">
         
      <Roadmap/>
       </div>

@@ -43,10 +43,11 @@ const Roadmap = () => {
               <Fade left><div className="text-white m-2 flex flex-row">Conceptualization <img src={tick} className="w-[50px]"/></div></Fade>
               <Fade left><div className="text-white m-2">Team Building<img src={tick} className="w-[50px]"/></div></Fade>
               <Fade left><div className="text-white m-2">Whitepaper v1<img src={tick} className="w-[50px]"/></div></Fade>
+              <Fade left><div className="text-white m-2">Pre-Seed Sale<img src={tick} className="w-[50px]"/></div></Fade>
               <Fade left><div className="text-white m-2">Seed Sale<img src={tick} className="w-[50px]"/></div></Fade>
               <Fade left><div className="text-white m-2">Investor Relatations<img src={tick} className="w-[50px]"/></div></Fade>
               <Fade left><div className="text-white m-2">Website Launch v1<img src={tick} className="w-[50px]"/></div></Fade>
-              <Fade left><div className="text-white m-2 ">Discovery <img src={tick} className="w-[50px]"/></div></Fade>
+              {/* <Fade left><div className="text-white m-2 ">Discovery <img src={tick} className="w-[50px]"/></div></Fade> */}
             </div>
 
           </li>
@@ -55,8 +56,9 @@ const Roadmap = () => {
               <time>Phase 2: 2022 Q1</time>
 
               <Fade right><div className="text-white m-1">Initial Coin Marketing</div></Fade>
-              <Fade right><div className="text-white m-1">CheckGame Studio Partnership</div></Fade>
-              <Fade right><div className="text-white m-1">Private Sale v1</div></Fade>
+              <Fade left><div className="text-white m-2">Game Studio Partnershisp<img src={tick} className="w-[50px]"/></div></Fade>
+              {/* <Fade right><div className="text-white m-1">Game Studio Partnershisp</div></Fade> */}
+              <Fade right><div className="text-white m-1">Private Sale </div></Fade>
               <Fade right><div className="text-white  m-1">Website Launch v2</div></Fade>
               <Fade right><div className="text-white m-1">Code audit Completed</div></Fade>
               <Fade right><div className="text-white m-1">The Deviants NFT Drop</div></Fade>
@@ -70,8 +72,8 @@ const Roadmap = () => {
               <time>Phase 3: 2022 Q2</time>
 
               <Fade left><div className="text-white m-2">LP Locked & Ownership Renounced</div></Fade>
-              <Fade left><div className="text-white m-2">CheckOrion's Realm Land NFTs Drop</div></Fade>
-              <Fade left><div className="text-white m-2">CheckGameplay Teaser</div></Fade>
+              <Fade left><div className="text-white m-2">Orion's Realm Land NFTs Drop</div></Fade>
+              <Fade left><div className="text-white m-2">Gameplay Teaser</div></Fade>
               <Fade left><div className="text-white m-2">Listing on CEX</div></Fade>
               <Fade left><div className="text-white m-2">Listing on Swaps</div></Fade>
               <Fade left><div className="text-white m-2">Aditional Game Studio Partnerships</div></Fade>
@@ -91,14 +93,14 @@ const Roadmap = () => {
               <time>Phase 4: 2022 Q3</time>
 
               <Fade right><div className="text-white m-2">NFT sentinel series auction drop</div></Fade>
-              <Fade right><div className="text-white m-2">CheckNFT marketplace Launch</div></Fade>
+              <Fade right><div className="text-white m-2">NFT marketplace Launch</div></Fade>
               <Fade right><div className="text-white m-2">More Minigames launches</div></Fade>
               <Fade right><div className="text-white m-2">
                 Additional Game Studio Partnerships
               </div></Fade>
               <Fade right><div className="text-white m-2">DeFi features(Staking & Farming)</div></Fade>
-              <Fade right><div className="text-white m-2">CheckWebsite Launch v1</div></Fade>
-              <Fade right><div className="text-white m-2">Discovery</div></Fade>
+              {/* <Fade right><div className="text-white m-2">Website Launch v1</div></Fade> */}
+              {/* <Fade right><div className="text-white m-2">Discovery</div></Fade> */}
             </div>
           </li>
           <li>
@@ -121,7 +123,7 @@ const Roadmap = () => {
               </div></Fade>
               <Fade right><div className="text-white m-2">Building swaraj ecosystem</div></Fade>
               <Fade right><div className="text-white m-2">
-                Voting rights to the people- G Token
+                Voting rights to the people-$GTKN
               </div></Fade>
               <Fade right><div className="text-white m-2">
                 implement 1% Burn Tax on transactions

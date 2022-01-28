@@ -43,6 +43,7 @@ const Home = () => {
         <div className="w-[100vw] flex">
           <div className="flex  md:flex-row w-full h-[90vh]">
             <div className="md:w-[60%] w-full pt-[10%] pl-[2%]">
+              <div className="h-[20vh]">
               <h1 className=" text-white  text-xl md:text-6xl drop-shadow-2xl mb-12 font-semibold text-shadow-1">
                 <Typewriter
                   options={{
@@ -54,6 +55,7 @@ const Home = () => {
                   }}
                 />
               </h1>
+              </div>
               <span className=" pt-[200px] text-3xl font-bold text-[#a64af7]">
                 A Truly Community Driven Metaverse Project,
                 <br /> Built On The Concept Of
@@ -92,7 +94,7 @@ const Home = () => {
           showTitle={false}
           className="video mt-[-25%] mb-0"
           video="669116664"
-          autoplay
+          
           width={screenWidth - 350}
           height={screenWidth - 350}
         />
