@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const screenWidth = useWindowWidth();
-  console.log(screenWidth - 300);
+  console.log(screenWidth);
   return (
     <>
       <div className="w-[100%] h-[100vh] ">
@@ -18,9 +18,9 @@ const Home = () => {
         <div class="twinkling"></div>
 
         <div className="h-[10%] w-full top-0 flex justify-between z-[100]">
-          <div className="  p-[2rem] ml-10 sm:m-2">
+          <div className=" p-2  md:p-[2rem] md:ml-10 sm:m-2">
             {" "}
-            <img src={logo} alt="logo" className="w-[100px]" />
+            <img src={logo} alt="logo" className="md:w-[100px] w-[75px]" />
           </div>
           <div className="w-[50%]  flex justify-end text-white font-mono">
           <Link to="tokenomics">
@@ -45,11 +45,11 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="w-[100vw] flex">
-          <div className="flex  md:flex-row w-full h-[90vh]">
+        <div className="w-[100vw] flex flex-col md:flex-row">
+          <div className="flex  md:flex-row  flex-col w-full h-[90vh]">
             <div className="md:w-[60%] w-full pt-[10%] pl-[2%]">
               <div className="h-[20vh]">
-              <h1 className=" text-white  text-xl md:text-6xl drop-shadow-2xl mb-12 font-semibold text-shadow-1">
+              <h1 className=" text-white  text-4xl md:pt-0 pt-[10vw] md:text-6xl drop-shadow-2xl mb-12 font-semibold text-shadow-1">
                 <Typewriter
                   options={{
                     strings: [
@@ -61,7 +61,7 @@ const Home = () => {
                 />
               </h1>
               </div>
-              <span className=" pt-[200px] text-3xl font-bold text-[#a64af7]">
+              <span className=" pt-[200px] md:text-3xl text-xl font-bold text-[#a64af7]">
                 A Truly Community Driven Metaverse Project,
                 <br /> Built On The Concept Of
                 <span className="text-white"> Self Governance</span>.
@@ -90,7 +90,7 @@ const Home = () => {
             controls={false}
             muted
             autoPlay
-            className="w-[50vw] "
+            className="md:w-[50vw] w-full "
           />
         </div>
       </div>
@@ -99,7 +99,7 @@ const Home = () => {
       <div className="flex justify-center items-center mt-[9%]">
         <Vimeo
           showTitle={false}
-          className="video mt-[-25%] mb-0"
+          className="video mt-[-25%] mb-0 md:block hidden"
           video="669116664"
           
           width={screenWidth - 350}

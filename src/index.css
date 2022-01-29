@@ -326,6 +326,17 @@ h1 { font-size: 20vw; }
   z-index: 2;
   background: rgb(243, 243, 243);
 }
+.diamond::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top:0;
+  transform: translateX(-50%) rotate(45deg);
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  background: rgb(165, 9, 255) ;
+}
 .timeline ul li div {
   position: relative;
   bottom: 0;

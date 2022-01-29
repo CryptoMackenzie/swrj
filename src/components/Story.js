@@ -1,7 +1,7 @@
 import React from 'react';
 import orion from "../assets/Orions_realm.png"
 import glitch from "../assets/glitch.mp4"
-import Slide from 'react-reveal/Slide';
+
 import { useState } from 'react';
 import deviant  from "../assets/Sequencer/deviant.mkv"
 
@@ -30,13 +30,13 @@ Story So Far...
 <div className='md:w-[60%] ml-2 w-full flex text-white'>
 
 
-<div className='p-[5%]  text-xl font-bold md:text-2xl border-solid border-[#a64af7] text-white rounded-2xl border-2'><p>Some years ago, amid our own ongoing problems, a crisis of unforeseen magnitude arrived in our world. Driven away from their home by their own magical calamity, the Elves and their peoples invaded our world instead. They seized control of a landmass and refused all the feeble attempts at diplomacy, defending to the death their new home. They were determined to control this "new world" the way they did theirs. We retaliated, of course, trying to regain the land that they stole from us. As powerful as I am, I felt I could not sit back and do nothing.</p><br/>
+<div className='p-[5%] md:ml-0 ml-7 mr-7 md:mr-0 text-xl font-bold md:text-2xl border-solid border-[#a64af7] text-white rounded-2xl border-2'><p>Some years ago, amid our own ongoing problems, a crisis of unforeseen magnitude arrived in our world. Driven away from their home by their own magical calamity, the Elves and their peoples invaded our world instead. They seized control of a landmass and refused all the feeble attempts at diplomacy, defending to the death their new home. They were determined to control this "new world" the way they did theirs. We retaliated, of course, trying to regain the land that they stole from us. As powerful as I am, I felt I could not sit back and do nothing.</p><br/>
  
 
 {see?<p id='see-content '>Tried to reason with both sides. Even used threats. I warned them of my premonitions. Nothing worked. Politicians and leaders on both sides were determined to use this conflict for their own agendas. War could not be prevented. A vivid dream came to me many times now, and I am convinced the threat is real. There is something worse coming, much worse. If we do not stop this pointless fighting, if we do not unite and learn to live in peace, not a single one of us will survive this threat. Humans, Elves, Trolls, Fairies, we will all be wiped out.</p>:""}{see?<span className="cursor-pointer text-[#a64af7] " onClick={()=>setSee(false)}>See less</span>:<span className="cursor-pointer text-[#a64af7]" onClick={()=>setSee(true)}>See More..</span>}</div>
 
 </div>
-<Link to="/prologue"><button  className="mt-[3vw] mr-11  mb-7 text-white pl-5 pr-[10px] pb-6 flex items-center justify-center pt-5  h-[50px] w-[10vw]"> Read Prologue </button></Link>
+<Link to="/prologue"><button  className="mt-[3vw] md:mr-11 mr-5 mb-7 text-white pl-5 pr-[10px] pb-6 flex items-center justify-center pt-5  h-[50px] w-[10vw]"> Read Prologue </button></Link>
   </div>
   <div className='w-full bg-black  pt-[65vh] flex flex-col md:flex-row md:pt-10 '>
  
@@ -44,10 +44,10 @@ Story So Far...
           {/* <h1 className=' text-5xl  flex flex-coltext-white drop-shadow-2xl mb-[10%] font-bold text-shadow-1'><span className='mt-[10%]'>Meet The{"     "}</span><br/><span className='text-9xl text-[#a64af7]  ml-6  specialH2 tracking-[10px]'>Deviants</span></h1> */}
           <div className='w-full mb-11 flex flex-col '>
 
-          <h1 className='text-5xl font-bold'>Meet The</h1>
-          <h1 className='text-9xl text-[#a64af7]  ml-[-35%]  specialH2 tracking-[10px]'>Deviants</h1>
+          <h1 className='md:text-5xl text-3xl ml-11 md:ml-0 font-bold'>Meet The</h1>
+          <h1 className='md:text-9xl text-7xl text-[#a64af7]  md:ml-[-35%] font-bold specialH2 tracking-[10px]'>Deviants</h1>
           </div>
-          <p className='text-white text-2xl font-bold'> 
+          <p className='text-white text-2xl ml-5 md:ml-0 font-bold'> 
           Our mission is simple: <span className='text-[#a64af7] textShadow font-bold'>Take over the PvP and P2E gaming experience in the metaverse space.
           </span>
           <br/>
@@ -56,7 +56,7 @@ Story So Far...
           </p>
       </div>
    
-      <div className="md:w-[50%] w-full flex md:flex-row flex-col  mt-[10%]">
+      <div className="md:w-[50%] w-full flex md:flex-row flex-col  md:mt-[10%]">
             <div className='w-[40%] h-[50vh] m-10 ml-1 '>
             <video
           src={deviant}

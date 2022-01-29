@@ -36,8 +36,8 @@ const Roadmap = () => {
       <section class="timeline bg-black pt-[30%]" id="roadmap">
         <ul>
           
-          <li className="completed-task">
-            <div>
+          <li className="completed-task diamond">
+            <div className="">
               <time>Phase 1: 2021</time>
 
               <Fade left><div className="text-white m-2 flex flex-row">Conceptualization <img src={tick} alt="check" className="w-[50px]"/></div></Fade>
