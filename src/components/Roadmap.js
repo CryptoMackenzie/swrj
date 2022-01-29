@@ -33,7 +33,7 @@ const Roadmap = () => {
 //   window.addEventListener("scroll", callbackFunc);
   return (
     <>
-      <section class="timeline bg-black pt-[30%]" id="roadmap">
+      <section class="timeline bg-black pt-[40%]" id="roadmap">
         <ul>
           
           <li className="completed-task diamond">

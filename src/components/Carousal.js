@@ -22,7 +22,7 @@ function Carousal(props) {
   };
   return (<>
   
-    <div className="FeatureCard2Container pt-[30%]">
+    <div className="FeatureCard2Container pt-[30%] pb-[10%]">
       <h1 className='text-[#a64af7] text-7xl specialH2 drop-shadow-2xl mb-[5%] ml-[5%] font-semibold text-shadow-1'>Pushing Boundaries Of The Metaverse To Extremes</h1>
       <p className="text-center m-11  text-4xl mb-[5%] font-bold">Our objective is to transfer power back to the people via establishing a decentralized ecosystem managed by and for the  people themselves.</p>
       <button className="left" onClick={() => decrementLevel()} >⮜</button>
@@ -71,7 +71,7 @@ function Carousal(props) {
 </div>
     <div className="FeatureCard2Container flex justify-center">
 
-    <h1 className='text-white text-9xl lg:text-8xl drop-shadow-2xl pt-[90%]  lg:pt-[100%]  font-semibold text-shadow-1'>Release RoadMap</h1>
+    <h1 className='text-white text-9xl lg:text-8xl drop-shadow-2xl md:pt-[80%]  lg:pt-[100%]  lg:mb-[10vh] font-semibold text-shadow-1'>Release RoadMap</h1>
     </div>
     </>
   );

@@ -45,7 +45,7 @@ Story So Far...
           <div className='w-full mb-11 flex flex-col '>
 
           <h1 className='md:text-5xl text-3xl lg:text-3xl ml-11 md:ml-0 font-bold'>Meet The</h1>
-          <h1 className='md:text-9xl text-7xl lg:text-8xl text-[#a64af7]  md:ml-[-35%] lg:ml-[-28%] font-bold specialH2 tracking-[10px]'>Deviants</h1>
+          <h1 className='md:text-9xl text-7xl lg:text-8xl text-[#a64af7] self-start   font-bold specialH2 tracking-[10px]'>Deviants</h1>
           </div>
           <p className='text-white text-2xl ml-5 md:ml-0 font-bold'> 
           Our mission is simple: <span className='text-[#a64af7] textShadow font-bold'>Take over the PvP and P2E gaming experience in the metaverse space.
@@ -106,7 +106,7 @@ Story So Far...
   </div>
   <div className='w-full bg-black  flex  pt-[10%]'>
       <div className='w-[50%] p-[5%] flex flex-col '>
-          <h1 className='text-[#a64af7] tracking-[10px] ml-[-15%] text-7xl lg:text-5xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
+          <h1 className='text-[#a64af7] tracking-[10px] ml-[-15%] md:text-7xl lg:text-5xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
           <p className='text-white text-2xl font-bold lg:text-xl'>
               
    Limited edition of 100 Smart NFTs With AI capablities.<br/><br/> Possessing these Sentinels grants extrordinary privileges, transforming them into the "Councilor" of particular areas of the virtual territory in the Metaverse <br/><br/>

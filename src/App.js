@@ -25,7 +25,7 @@ function App() {
       
       <Sequncer/>
       <Carousal/>
-     <div className="pt-[8%] ">
+     <div className="pt-[14%]">
 
           <div className="pokercard bg-black">
             <FeatureCards />
