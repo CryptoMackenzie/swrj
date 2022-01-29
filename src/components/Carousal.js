@@ -72,7 +72,7 @@ function Carousal(props) {
 </div>
     <div className="FeatureCard2Container flex justify-center">
 
-    <h1 className='text-white md:text-9xl text-7xl md:ml-0 ml-[28vw] lg:text-8xl drop-shadow-2xl md:pt-[80%]  pt-[10vh] lg:pt-[100%]  lg:mb-[10vh] font-semibold text-shadow-1'>Release RoadMap</h1>
+    <h1 className='text-white md:text-9xl text-7xl md:ml-0 ml-[20vw] lg:text-8xl drop-shadow-2xl md:pt-[80%]  pt-[10vh] lg:pt-[100%]  lg:mb-[10vh] font-semibold text-shadow-1'>Release RoadMap</h1>
     </div>
     </>
   );
