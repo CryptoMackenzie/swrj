@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <div className="w-[100%] h-[100vh] ">
         <div class="stars "></div>
-        <div class="twinkling"></div>
+        <div class="twinkling md:w-[10000px]"></div>
 
         <div className="h-[10%] w-full top-0 flex justify-between z-[100]">
           <div className=" p-2  md:p-[2rem] md:ml-10 sm:m-2">
