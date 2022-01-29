@@ -89,11 +89,12 @@ Story So Far...
    
   </div>
   <div className='w-full bg-black  md:flex-row  flex flex-col pt-[10%] md:mt-2 mt-[30%]'>
+      <h1 className='text-[#a64af7] tracking-[10px] block md:hidden text-[2rem] lg:text-5xl drop-shadow-2xl mb-[10%] pt-[5%] pl-[6%]  text-shadow-1  specialH2 font-black pr-10' >Orion's Realm Series</h1>
       <div className='md:w-[50%] w-full p-[5%] flex flex-col justify-center '>
           <img src={orion} alt="" className=' boxs' />
       </div>
       <div className="md:w-[60%] w-full">
-      <h1 className='text-[#a64af7] tracking-[10px] text-[2rem] lg:text-5xl drop-shadow-2xl mb-[10%] pt-[5%] pl-[6%]  text-shadow-1  specialH2 font-black pr-10' >Orion's Realm Series</h1>
+      <h1 className='text-[#a64af7] tracking-[10px] hidden md:block text-[2rem] lg:text-5xl drop-shadow-2xl mb-[10%] pt-[5%] pl-[6%]  text-shadow-1  specialH2 font-black pr-10' >Orion's Realm Series</h1>
       <p className='text-white text-2xl  lg:text-xl pl-[5%] pr-[5%] font-bold'>
           5 large regions of land divided into 5000 Virtual Land NFTs consisting of
           cities, forests, farmlands etc.<br/><br/> They will be used to advertise,
@@ -104,8 +105,20 @@ Story So Far...
       </div>
   </div>
   <div className='w-full bg-black  flex md:flex-row flex-col pt-[10%]'>
+    <h1 className='text-[#a64af7] tracking-[10px] md:ml-[-15%] md:hidden block md:text-7xl lg:text-5xl text-4xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
+  <div className='boxs1 w-[75%] md:hidden block ml-[5vh]'>
+
+<video src={glitch}  
+type="video/mp4"
+loop
+controls={false}
+muted
+autoPlay
+width={700}>
+</video>
+  </div>
       <div className='md:w-[50%] w-full p-[5%] flex flex-col '>
-          <h1 className='text-[#a64af7] tracking-[10px] md:ml-[-15%] md:text-7xl lg:text-5xl text-4xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
+          <h1 className='text-[#a64af7] tracking-[10px] hidden md:block md:ml-[-15%] md:text-7xl lg:text-5xl text-4xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
           <p className='text-white text-2xl font-bold lg:text-xl'>
               
    Limited edition of 100 Smart NFTs With AI capablities.<br/><br/> Possessing these Sentinels grants extrordinary privileges, transforming them into the "Councilor" of particular areas of the virtual territory in the Metaverse <br/><br/>
@@ -113,7 +126,7 @@ Story So Far...
           </p>
       </div>
       <div className="md:w-[50%] w-full md:ml-0 ml-[12%] md:mt-0 mt-11">
-        <div className='boxs1 w-[75%]'>
+        <div className='boxs1 w-[75%] md:block hidden'>
 
             <video src={glitch}  
             type="video/mp4"
