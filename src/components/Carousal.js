@@ -1,5 +1,6 @@
 import FeatureCards2 from "./FeatureCard2";
-
+import {AiOutlineArrowRight} from "react-icons/ai";
+import {AiOutlineArrowLeft} from "react-icons/ai";
 import { useState } from "react";
 import img1 from "../assets/Sequencer/1.png" 
 import img2 from "../assets/Sequencer/2.png" 
@@ -23,10 +24,10 @@ function Carousal(props) {
   return (<>
   
     <div className="FeatureCard2Container pt-[30%] pb-[10%]">
-      <h1 className='text-[#a64af7] text-7xl specialH2 drop-shadow-2xl mb-[5%] ml-[5%] font-semibold text-shadow-1'>Pushing Boundaries Of The Metaverse To Extremes</h1>
-      <p className="text-center m-11  text-4xl mb-[5%] font-bold">Our objective is to transfer power back to the people via establishing a decentralized ecosystem managed by and for the  people themselves.</p>
-      <button className="left" onClick={() => decrementLevel()} >⮜</button>
-      <button className="right" onClick={() => incrementLevel()}>⮞</button>
+      <h1 className='text-[#a64af7] md:text-7xl text-4xl specialH2 drop-shadow-2xl mb-[5%] md:ml-[5%] font-semibold text-shadow-1'>Pushing Boundaries Of The Metaverse To Extremes</h1>
+      <p className="text-center m-11  md:text-4xl mb-[5%] font-bold">Our objective is to transfer power back to the people via establishing a decentralized ecosystem managed by and for the  people themselves.</p>
+      <button className="left" onClick={() => decrementLevel()} ><AiOutlineArrowLeft   fontSize={30}/></button>
+      <button className="right" onClick={() => incrementLevel()}><AiOutlineArrowRight fontSize={30}/></button>
       <FeatureCards2
         level={level}
         icon={img1}
@@ -67,11 +68,11 @@ function Carousal(props) {
     <div className="FeatureCard2Container flex justify-center">
       
 
-<h1 className='text-white text-8xl drop-shadow-2xl pt-[55%] lg:pt-[65%]  font-black text-shadow-1 flex flex-col'>Features Of Swaraj<span className="text-xl text-[#a64af7]">Swipe Left/Right on the Cards</span></h1>
+<h1 className='text-white text-4xl md:text-8xl drop-shadow-2xl md:pt-[55%] pt-[105%] lg:pt-[65%]  font-black text-shadow-1 flex flex-col'>Features Of Swaraj<span className="text-xl text-[#a64af7]">Swipe <span className="md:hidden inline">Left/</span>Right on the Cards</span></h1>
 </div>
     <div className="FeatureCard2Container flex justify-center">
 
-    <h1 className='text-white text-9xl lg:text-8xl drop-shadow-2xl md:pt-[80%]  lg:pt-[100%]  lg:mb-[10vh] font-semibold text-shadow-1'>Release RoadMap</h1>
+    <h1 className='text-white md:text-9xl text-7xl md:ml-0 ml-[28vw] lg:text-8xl drop-shadow-2xl md:pt-[80%]  pt-[150vh] lg:pt-[100%]  lg:mb-[10vh] font-semibold text-shadow-1'>Release RoadMap</h1>
     </div>
     </>
   );

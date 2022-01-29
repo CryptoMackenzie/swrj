@@ -1,10 +1,8 @@
 import React from 'react';
 import orion from "../assets/Orions_realm.png"
 import glitch from "../assets/glitch.mp4"
-
 import { useState } from 'react';
-import deviant  from "../assets/Sequencer/deviant.mkv"
-
+import deviant  from "../assets/Sequencer/deviant.webm"
 import img1 from "../assets/1.png"
 import img2 from "../assets/2.png"
 import img3 from "../assets/3.png"
@@ -58,6 +56,7 @@ Story So Far...
    
       <div className="md:w-[50%] w-full flex md:flex-row flex-col  md:mt-[10%]">
             <div className='w-[40%] h-[50vh] m-10 ml-1 '>
+              
             <video
           src={deviant}
           type="video/mp4"
@@ -65,18 +64,18 @@ Story So Far...
           controls={false}
           muted
           autoPlay
-          className="w-full h-full object-cover"
+          className="w-full h-full  md:m-1 lg:m-1 ml-[30vw] object-cover"
         />
-            </div>
+        </div>
             
-            <div className='md:w-[60%] w-full h-[50vh] m-10  flex'>
+            
+            <div className='md:w-[60%] w-full h-[50vh] md:m-10  flex'>
            
 
             <marquee direction="up" height="450">
-              <div className=' md:ml-6 ml-2 bg-white flex items-center  justify-center mt-10 rounded-3xl'><img  clasName="mr-[50px]" src={img1} alt="" srcset="" className=' rounded-3xl'/></div>
+              <div className=' md:ml-6  lg:ml-6 ml-0 bg-white flex items-center  justify-center mt-10 rounded-3xl'><img  clasName="" src={img1} alt="" srcset="" className=' rounded-3xl'/></div>
               <div className=' md:ml-6 ml-2 bg-white flex items-center   justify-center mt-10 rounded-3xl '><img src={img3} alt="" srcset="" className=' rounded-3xl'/></div>
-              <div className=' md:ml-6 ml-2bg-white flex items-center   justify-center mt-10 rounded-3xl'><img src={img6} alt="" srcset="" className=' rounded-3xl'/></div>
-              
+              <div className=' md:ml-6 ml-2bg-white flex items-center   justify-center mt-10 rounded-3xl'><img src={img6} alt="" srcset="" className='rounded-3xl'/></div>
             </marquee>
             <marquee direction="down" height="450">
               <div className='   flex items-center md:ml-[30px] ml-2 justify-center mt-10 rounded-3xl'><img src={img7} alt="" srcset=""  className=' rounded-3xl'/></div>
@@ -89,31 +88,31 @@ Story So Far...
       </div>
    
   </div>
-  <div className='w-full bg-black  flex  pt-[10%]'>
-      <div className='w-[50%] p-[5%] flex flex-col justify-center '>
+  <div className='w-full bg-black  md:flex-row  flex flex-col pt-[10%] md:mt-2 mt-[30%]'>
+      <div className='md:w-[50%] w-full p-[5%] flex flex-col justify-center '>
           <img src={orion} alt="" className=' boxs' />
       </div>
-      <div className="w-[60%]">
-      <h1 className='text-[#a64af7] tracking-[10px] text-[4rem] lg:text-5xl drop-shadow-2xl mb-[10%] pt-[5%] pl-[6%]  text-shadow-1  specialH2 font-black pr-10' >Orion's Realm Series</h1>
+      <div className="md:w-[60%] w-full">
+      <h1 className='text-[#a64af7] tracking-[10px] text-[2rem] lg:text-5xl drop-shadow-2xl mb-[10%] pt-[5%] pl-[6%]  text-shadow-1  specialH2 font-black pr-10' >Orion's Realm Series</h1>
       <p className='text-white text-2xl  lg:text-xl pl-[5%] pr-[5%] font-bold'>
-      5 large regions of land divided into 5000 Virtual Land NFTs consisting of
-            cities, forests, farmlands etc.<br/> <br/> They will be used to advertise,
-            develop multilevel games, construct structures, hold events and
-            social gatherings and engage in commercial ventures such as arcades, metaverse sports events and competitions.
+          5 large regions of land divided into 5000 Virtual Land NFTs consisting of
+          cities, forests, farmlands etc.<br/><br/> They will be used to advertise,
+          develop multilevel games, construct structures, hold events and
+          social gatherings and engage in commercial ventures such as arcades, metaverse sports events and competitions.
           </p>
        
       </div>
   </div>
-  <div className='w-full bg-black  flex  pt-[10%]'>
-      <div className='w-[50%] p-[5%] flex flex-col '>
-          <h1 className='text-[#a64af7] tracking-[10px] ml-[-15%] md:text-7xl lg:text-5xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
+  <div className='w-full bg-black  flex md:flex-row flex-col pt-[10%]'>
+      <div className='md:w-[50%] w-full p-[5%] flex flex-col '>
+          <h1 className='text-[#a64af7] tracking-[10px] md:ml-[-15%] md:text-7xl lg:text-5xl text-4xl drop-shadow-2xl mb-[10%] font-extrabold text-shadow-1 specialH2'>Sentinel Series</h1>
           <p className='text-white text-2xl font-bold lg:text-xl'>
               
    Limited edition of 100 Smart NFTs With AI capablities.<br/><br/> Possessing these Sentinels grants extrordinary privileges, transforming them into the "Councilor" of particular areas of the virtual territory in the Metaverse <br/><br/>
    These Smart NFTs will have the capacity to execute specific acts outside of the Metaverse, like reading  messages in a human-like voice and acting on your behalf as well as functioning as chatbots, among other AI integrated functions.     
           </p>
       </div>
-      <div className="w-[50%] ">
+      <div className="md:w-[50%] w-full md:ml-0 ml-[12%] md:mt-0 mt-11">
         <div className='boxs1 w-[75%]'>
 
             <video src={glitch}  
@@ -123,12 +122,9 @@ Story So Far...
             muted
             autoPlay
             width={700}>
-            
             </video>
               </div>
           </div>
-
-
   </div>
   
 

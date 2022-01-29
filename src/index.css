@@ -580,6 +580,8 @@ body {
   background-color: #000;
   overflow-x: hidden;
   cursor: url("../src/assets/pointer.png");
+  overflow-x: hidden;
+  width: 100vw;
 }
 body::-webkit-scrollbar {
   width: 0.5em;
