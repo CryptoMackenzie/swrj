@@ -28,8 +28,8 @@ const OurPartners = () => {
   <div className='md:w-full h-[50vh] bg-black '>
 
       <h1 className=' md:ml-[45%] md:pt-[3%] md:pb-[3%] text-[#a64af7] text-4xl drop-shadow-2xl  font-semibold text-shadow-1'>Featured On</h1>
-    <div className='md:flex md:flex-row flex-col  items-center justify-between'>
-    <a className=' ease-in-out duration-500 ml-12' href="https://cointelegraph.com/press-releases/swaraj-to-launch-their-metaverse-multi-utility-token-shortly"><div className='w-[250px] brt duration-500 h-[100px] bg-white ml-6 flex items-center justify-center rounded-2xl'><img src={coin} alt="cointelegraph" className='w-[90px]' /></div></a>
+    <div className='md:flex md:flex-row flex-col   items-center justify-between'>
+    <a className=' ease-in-out  duration-500 md:ml-12' href="https://cointelegraph.com/press-releases/swaraj-to-launch-their-metaverse-multi-utility-token-shortly"><div className='w-[250px] brt duration-500 h-[100px] bg-white ml-6 flex items-center justify-center rounded-2xl'><img src={coin} alt="cointelegraph" className='w-[90px]' /></div></a>
     <a className=' ease-in-out duration-500 ' href="https://finance.yahoo.com/news/swaraj-set-launch-metaverse-gaming-142500745.html"><div className='w-[250px] brt duration-500 h-[100px] bg-white ml-6 flex items-center justify-center rounded-2xl'><img src={YFinance} alt="cointelegraph" className='w-[90px]' /></div></a>
     <a className=' ease-in-out duration-500 ' href="https://cryptonews.com/news/swaraj-set-launch-its-metaverse-gaming-ecosystem.htm"><div className='w-[250px] brt duration-500 h-[100px] bg-white ml-6 flex items-center justify-center rounded-2xl'><img src={crypto} alt="cointelegraph" className='w-[90px]' /></div></a>
     <a className=' ease-in-out duration-500 ' href="https://www.newsbtc.com/press-releases/swaraj-announces-the-launch-of-a-new-metaverse-gaming-project-and-its-token/"><div className='w-[250px] brt duration-500 h-[100px] bg-white ml-6 flex items-center justify-center rounded-2xl'><img src={newsBtc} alt="cointelegraph" className='w-[90px]' /></div></a>

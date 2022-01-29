@@ -6,10 +6,12 @@ import Home from "./components/Home";
 import OurPartners from "./components/OurPartners";
 import Roadmap from "./components/Roadmap";
 import Sequncer from "./components/Sequncer";
+import { useWindowWidth } from "@react-hook/window-size";
 
 import Story from "./components/Story";
 
 function App() {
+  const screenWidth = useWindowWidth();
   return (
     <div>
       {/*

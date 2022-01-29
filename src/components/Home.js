@@ -49,7 +49,7 @@ const Home = () => {
           <div className="flex  md:flex-row  flex-col w-full h-[90vh]">
             <div className="md:w-[60%] w-full pt-[10%] pl-[2%]">
               <div className="h-[20vh]">
-              <h1 className=" text-white  text-4xl md:pt-0 pt-[10vw] md:text-6xl drop-shadow-2xl mb-12 font-semibold text-shadow-1">
+              <h1 className=" text-white  text-4xl lg:text-3xl    md:pt-0 pt-[10vw] md:text-6xl drop-shadow-2xl mb-12 font-semibold text-shadow-1">
                 <Typewriter
                   options={{
                     strings: [
