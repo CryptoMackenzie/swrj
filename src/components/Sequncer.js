@@ -11,7 +11,7 @@ const Sequncer = () => {
       
         </div>
   <div className='w-[100vw] bg-black h-[50vh] flex  justify-between'>
-        <div className="relative w-full h-full justify-center flex items-center ">
+        <div className="relative w-full  h-full justify-center flex items-center ">
         <video
           src={swrjVdo}
           type="video/mkv"
@@ -19,7 +19,7 @@ const Sequncer = () => {
           controls={false}
           muted
           autoPlay
-          className="w-[350px] pt-[28%]  mb-[3%] mr-[9%] object-cover"
+          className="w-[350px] lg:w-[300px] pt-[28%]  mb-[3%] mr-[9%] object-cover"
         />
         <div className="absolute flex flex-col ml-11 top-0  bottom-0 ">
           <div className="login-card">

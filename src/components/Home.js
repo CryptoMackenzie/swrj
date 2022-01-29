@@ -48,8 +48,8 @@ const Home = () => {
         <div className="w-[100vw] flex flex-col md:flex-row">
           <div className="flex  md:flex-row  flex-col w-full h-[90vh]">
             <div className="md:w-[60%] w-full pt-[10%] pl-[2%]">
-              <div className="h-[20vh]">
-              <h1 className=" text-white  text-4xl lg:text-3xl    md:pt-0 pt-[10vw] md:text-6xl drop-shadow-2xl mb-12 font-semibold text-shadow-1">
+              <div className="md:h-[20vh] lg:h-[25vh]">
+              <h1 className=" text-white  text-4xl lg:text-5xl    md:pt-0 pt-[10vw] md:text-6xl drop-shadow-2xl mb-12 font-semibold text-shadow-1">
                 <Typewriter
                   options={{
                     strings: [
@@ -61,7 +61,7 @@ const Home = () => {
                 />
               </h1>
               </div>
-              <span className=" pt-[200px] md:text-3xl text-xl font-bold text-[#a64af7]">
+              <span className=" pt-[200px] md:text-3xl text-xl lg:text-2xl font-bold text-[#a64af7]">
                 A Truly Community Driven Metaverse Project,
                 <br /> Built On The Concept Of
                 <span className="text-white"> Self Governance</span>.
@@ -96,7 +96,7 @@ const Home = () => {
       </div>
       </div>
         </div>
-      <div className="flex justify-center items-center mt-[9%]">
+      <div className="flex justify-center items-center lg:mt-[15%] mt-[9%]">
         <Vimeo
           showTitle={false}
           className="video mt-[-25%] mb-0 md:block hidden"
